@@ -1,35 +1,3 @@
-/*
-  Template Name: SpicyX
-  Author : MarkUps
-  Author URI: http://www.markups.io/
-  Version: 1.1
-  Tags: light, white, restaurant, multi page, landing page, custom-colors, Bootstrap, responsive, html5, css3, Sass, template, web template
-
-*/
-
-/* Table of Content
-==================================================
-#BASIC TYPOGRAPHY
-#HEADER SECTION
-#NAVBAR SECTION
-#SLIDER SECTION
-#ABOUT US SECTION
-#COUNTER SECTION
-#MENU ITEM SECTION
-#RESERVATION SECTION
-#GALLERY SECTION
-#TESTIMONIAL SECTION
-#SUBSCRIPTION SECTION
-#CHEF SECTION
-#LATEST NEWS SECTION
-#CONTACT SECTION
-#MAP SECTION
-#BLOG PAGE
-#ERROR  PAGE
-#FOOTER SECTION
-#RESPONSIVE DESIGN
-*/
-/* BASE - Base tyles, Variables, Mixins, etc. */
 body {
   background-color: #ffffff;
   font-family: "Prata", serif;
@@ -1558,10 +1526,20 @@ RESERVATION SECTION
  FOOTER SECTION
 ====================*/
 #mu-footer {
-  background-color: #444;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url("assets/img/testimonial-bg.jpg");
   display: inline;
+  background-size: cover;
   float: left;
-  padding: 50px 0;
+  width: 100%;
+}
+#mu-footer .mu-footer-overlay {
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: inline;
+  padding: 70px 0 100px;
+  float: left;
   width: 100%;
 }
 #mu-footer .mu-footer-area {
